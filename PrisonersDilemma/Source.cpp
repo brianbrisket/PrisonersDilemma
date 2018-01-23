@@ -10,12 +10,29 @@ enum Outcome
 	best
 };
 
+class PrisonersDilemma
+{
+private:
+
+	int points;
+
+public:
+	
+	void setPointsFromGame(Outcome points)
+	{
+		this->points = points;
+	}
+	int getPoints()
+	{
+		return this->points;
+	}
+};
+
 int main()
 {
-	cout << "best: " << best << endl;
-	cout << "second: " << second << endl;
-	cout << "third: " << third << endl;
-	cout << "worst: " << worst << endl;
+	PrisonersDilemma player1;
+	player1.setPointsFromGame(best);
+	cout << player1.getPoints() << endl;
 
 	cin.ignore();
 	cin.get();
