@@ -31,7 +31,7 @@ int PrisonersDilemma::getPoints() const
 {
 	return this->points;
 }
-// testing vs git integration
+
 int main()
 {
 	PrisonersDilemma player1;
