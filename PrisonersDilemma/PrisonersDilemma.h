@@ -1,4 +1,7 @@
-#pragma once
+//#pragma once
+#ifndef _PRISONERSDILEMMA_H
+#define _PRISONERSDILEMMA_H
+//#else
 
 enum Outcome
 {
@@ -21,3 +24,4 @@ public:
 
 };
 
+#endif // !_PRISONERSDILEMMA_H
