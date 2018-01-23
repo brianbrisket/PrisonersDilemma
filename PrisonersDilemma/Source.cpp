@@ -18,15 +18,19 @@ private:
 
 public:
 	
-	void setPointsFromGame(Outcome points)
-	{
-		this->points = points;
-	}
-	int getPoints()
-	{
-		return this->points;
-	}
+	void setPointsFromGame(Outcome);
+	int getPoints() const;
 };
+
+void PrisonersDilemma::setPointsFromGame(Outcome points)
+{
+	this->points = points;
+}
+
+int PrisonersDilemma::getPoints() const
+{
+	return this->points;
+}
 
 int main()
 {
