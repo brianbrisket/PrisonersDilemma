@@ -9,6 +9,9 @@ int main()
 	player1.setPointsFromGame(best);
 	cout << player1.getPoints() << endl;
 
+    // Remove after test
+    cout << "ADDED just to test if push/pull will work, CLion to VS" << endl;
+
 	cin.ignore();
 	cin.get();
 }
